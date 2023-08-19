@@ -28,7 +28,7 @@ list-style-type: none; padding: 0; margin-right: 1ex;
 }
 
 .code { border-collapse:collapse; width:100%; padding:0 }
-.code { font-family: monospace; }
+.code { font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 table.code{ table-layout:fixed; width: 100% } /* This improves performence.  The idea is that the second column just overflows */
 .code th { width:6.5ex; padding-right:1ex; background-color:#eeeeee ;
             text-align:right; color:black; font-weight:normal;
@@ -73,8 +73,8 @@ p.warnmsg { color: #a00; padding: 0 1ex; margin: 0.3ex 0; }
 .error { border-bottom: 1px dashed red }
 .warning { border-bottom: 1px dotted #c90; }
 
-#tooltip i { color: #888; white-space: pre-wrap; font-family: monospace }
-#tooltip .ppcond { color: #063; white-space: pre-wrap; font-family: monospace; font-weight:bold  }
+#tooltip i { color: #888; white-space: pre-wrap; font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace }
+#tooltip .ppcond { color: #063; white-space: pre-wrap; font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-weight:bold  }
 #tooltip .ppcond a { font-weight: normal; color:inherit  }
 
 /* disable the keywords in strings  (macro have that)  */
